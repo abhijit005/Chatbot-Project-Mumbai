@@ -1,0 +1,189 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, welcome to Project Mumbai!",
+        "Hi! How can Project Mumbai assist you today?",
+        "Greetings from Project Mumbai, how can we help?",
+        "Hello! What can Project Mumbai do for you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting Project Mumbai!",
+        "Goodbye! Have a great day, and thank you for supporting Project Mumbai.",
+        "Bye! We hope to see you again soon, and keep making a difference with us."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": [
+        "You're welcome! Project Mumbai is here to help.",
+        "Thank you for your support! Together, we can create a better Mumbai.",
+        "Happy to assist! Project Mumbai appreciates your involvement."
+      ]
+    },    
+        {
+          "tag": "about_project_mumbai",
+          "patterns": [
+            "What does Project Mumbai do?",
+            "Tell me about Project Mumbai.",
+            "What are your goals and objectives?",
+            "What is Project Mumbai's mission?",
+            "What causes does Project Mumbai support?"
+          ],
+          "responses": [
+            "Project Mumbai is on a mission to empower communities and provide realistic solutions to everyday challenges. We focus on initiatives involving public-private-people partnerships to create a better living environment in Mumbai and its extended metropolitan region. From mental health support to clean water access, Project Mumbai tackles a variety of social issues. You can know more about us: https://projectmumbai.org/about-us/"
+          ]
+        },
+        {
+          "tag": "volunteer_opportunities",
+          "patterns": [
+            "How can I become a volunteer?",
+            "Are there any volunteering opportunities available?",
+            "How do I sign up to volunteer?",
+            "What volunteer programs do you offer?",
+            "Can I volunteer online?",
+            "Is there an age requirement to volunteer?"
+          ],
+          "responses": [
+            "You can become a volunteer by signing up through our website https://projectmumbai.org/volunteers/ . There are no age restrictions, and you can choose what you would like to volunteer for. Opportunities range from participating in clean-up drives to mentoring children and much more."
+          ]
+        },
+        {
+          "tag": "events_and_activities",
+          "patterns": [
+            "What upcoming events does Project Mumbai have?",
+            "What kind of events does Project Mumbai organize?",
+            "How do I register for an event?",
+            "When is your next event?"
+          ],
+          "responses": [
+            "Project Mumbai's events include 'Jallosh: Clean Coasts', 'The Mumbai Plastic Recyclothon', 'Agni Rakshak', and more. You can find details and register for upcoming events on our website or through our online forms https://projectmumbai.org/events/ . Each event is designed to involve the community in making Mumbai a better place."
+          ]
+        },
+        {
+          "tag": "donations_and_funding",
+          "patterns": [
+            "How can I donate to Project Mumbai?",
+            "Do you accept donations online?",
+            "What payment methods do you accept for donations?",
+            "Can I make a recurring donation?",
+            "Are donations tax-deductible?"
+          ],
+          "responses": [
+            "You can donate to Project Mumbai through our website https://projectmumbai.org/donate-now/ . We accept various payment methods, including VISA, Mastercard, and PayPal. Yes, you can set up recurring donations, and all donations are tax-deductible."
+          ]
+        },
+        {
+          "tag": "partnerships_and_collaborations",
+          "patterns": [
+            "How can I partner with Project Mumbai?",
+            "Can my company collaborate with Project Mumbai?",
+            "Do you accept corporate sponsorships?",
+            "Can organizations collaborate with you on events?"
+          ],
+          "responses": [
+            "Project Mumbai welcomes partnerships from individuals, companies, and organizations. You can collaborate on our social initiatives, sponsor events, or contribute resources. Please reach out to us via our contact page  https://projectmumbai.org/contact/ or email us at info@projectmumbai.org."
+          ]
+        },
+        {
+          "tag": "impact_and_achievements",
+          "patterns": [
+            "What impact has Project Mumbai had?",
+            "What projects have you completed recently?",
+            "Can you share success stories?",
+            "How does Project Mumbai measure its impact?",
+            "What are your latest achievements?"
+          ],
+          "responses": [
+            "Project Mumbai has successfully led numerous initiatives such as 'Jallosh: Clean Coasts', 'The Mumbai Plastic Recyclothon', and 'Agni Rakshak', creating positive environmental and social impacts. Recently, we won two global honors at the Anthem Awards for inclusivity and sustainability."
+          ]
+        },
+        {
+          "tag": "feedback_and_support",
+          "patterns": [
+            "How can I give feedback?",
+            "Where can I submit suggestions?",
+            "Can I get help with an issue?",
+            "Who can I contact for more information?"
+          ],
+          "responses": [
+            "You can provide feedback or submit suggestions via our website or by emailing us at https://projectmumbai.org/contact/. For any issues or further information, feel free to contact us."
+          ]
+        },
+        {
+          "tag": "health_and_safety",
+          "patterns": [
+            "What health initiatives does Project Mumbai support?",
+            "Are there any health camps coming up?",
+            "Do you organize blood donation camps?",
+            "How can I get involved in health initiatives?"
+          ],
+          "responses": [
+            "Project Mumbai organizes several health-related initiatives, including mental health support programs and health camps. We also partner with local organizations to conduct blood donation drives. Check our website for upcoming health events, or sign up as a volunteer to get involved. https://projectmumbai.org/"
+          ]
+        },
+        {
+          "tag": "environment_and_cleanups",
+          "patterns": [
+            "Does Project Mumbai conduct clean-up drives?",
+            "How can I participate in beach clean-ups?",
+            "What environmental initiatives do you have?",
+            "How do I sign up for environmental events?"
+          ],
+          "responses": [
+            "Project Mumbai conducts regular environmental initiatives, such as 'Jallosh: Clean Coasts' and 'The Mumbai Plastic Recyclothon' and many more events https://projectmumbai.org/past-environment/ . You can sign up for these events on our website, join a clean-up team, and help make a difference in Mumbai's environment."
+          ]
+        },
+        {
+          "tag": "educational_programs",
+          "patterns": [
+            "Do you organize educational programs?",
+            "How can I volunteer to teach?",
+            "What education initiatives does Project Mumbai have?",
+            "Are there upcoming educational workshops?"
+          ],
+          "responses": [
+            "Yes, we organize educational programs such as mentoring and tutoring for children, and skill-building workshops. Volunteers can sign up to teach or mentor through our website or by emailing us at volunteer@projectmumbai.org."
+          ]
+        },
+        {
+          "tag": "location_and_contact",
+          "patterns": [
+            "Where is Project Mumbai located?",
+            "How can I contact Project Mumbai?",
+            "Is there a contact number for inquiries?",
+            "Where can I find more information?"
+          ],
+          "responses": [
+            "Project Mumbai is based in Mumbai. You can contact us through our website or via email at info@projectmumbai.org or https://projectmumbai.org/. For volunteering opportunities, write to volunteer@projectmumbai.org."
+          ]
+        },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That was helpful"
+      ],
+      "responses": [
+        "You're welcome! We're here to help you.",
+        "Thank you for your support! Let us know if you need anything else.",
+        "Glad to assist! If you have more questions, feel free to ask."
+      ]
+    } 
+  ]
+}   
